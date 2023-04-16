@@ -1,7 +1,5 @@
-# Ignorar ambiente virtual (venv)
-venv/
-venv/*
-venv*/
+# Ignorar ambiente virtual (.venv)
+.venv/
 
 # Ignorar arquivos gerados pelo ambiente virtual
 *.pyc
@@ -14,5 +12,4 @@ build/
 .env
 
 # Ignorar arquivos gerados pelo vscode
-
-settings.json
+.vscode
